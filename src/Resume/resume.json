@@ -1,0 +1,25 @@
+{
+    "experience": [
+        {
+            "title": "Junior Software Engineer",
+            "employer": "Skyward App Company",
+            "location": "Columbia, MD",
+            "dates": "April 2019 - Present",
+            "bullets": []
+        },
+        {
+            "title": "Software Engineer Intern at NASA Goddard Space Flight Center",
+            "employer": "MTI Systems",
+            "location": "Greenbelt, MD",
+            "dates": "May 2017 - April 2019",
+            "bullets": []
+        },
+        {
+            "title": "Math and Computer Science Tutor",
+            "employer": "University of Richmond",
+            "location": "Richmond, VA",
+            "dates": "",
+            "bullets": []
+        }
+    ]
+}
