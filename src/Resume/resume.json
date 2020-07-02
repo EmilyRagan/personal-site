@@ -5,20 +5,41 @@
             "employer": "Skyward App Company",
             "location": "Columbia, MD",
             "dates": "April 2019 - Present",
-            "bullets": []
+            "bullets": [
+                "Develop online/offline iOS application in React Native that consumes REST APIs",
+                "Communicate with customers during demos and for requirements clarification",
+                "Work on web applications using React.js, mapbox-gl, C#, and Entity Framework",
+                "Implement REST API endpoints for web application",
+                "Internal presentation to company about front-end automated testing"
+            ]
         },
         {
             "title": "Software Engineer Intern at NASA Goddard Space Flight Center",
             "employer": "MTI Systems",
             "location": "Greenbelt, MD",
             "dates": "May 2017 - April 2019",
-            "bullets": []
+            "bullets": [
+                "Lead team of 3-6 interns for SCaN Now: delegated assignments, reviewed code, prioritized tickets",
+                "Planned, organized, and ran meetings to review features and improvements for SCaN Now",
+                "Presented products to stakeholders from NASA Headquarters for SCaN Now",
+                "Developed features for responsive web applications",
+                "Used publish and subscribe functions on a WAMP bus to communicate status for display",
+                "Collaborated with subject matter experts to design improvements and features for UI/UX",
+                "Developed map-base interactive mission tour in Angular 7 with Angular Material and Leaflet.js"
+            ]
         },
         {
             "title": "Math and Computer Science Tutor",
             "employer": "University of Richmond",
             "location": "Richmond, VA",
-            "dates": "",
+            "dates": "January - April 2017",
+            "bullets": []
+        },
+        {
+            "title": "Computer Science Lab and Grading Assistant",
+            "employer": "University of Richmond",
+            "location": "Richmond, VA",
+            "dates": "August - December 2016",
             "bullets": []
         }
     ]
