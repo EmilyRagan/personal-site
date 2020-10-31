@@ -15,10 +15,10 @@ export const Resume = () =>
 
     return (
         <div>
-            <Jumbotron>
+            {/* <Jumbotron>
                 <h1>Emily Ragan</h1>
                 <h2>Hyattsville, MD | <a href="mailto:emily.lynn.ragan@gmail.com">emily.lynn.ragan@gmail.com</a> | 302-521-9641</h2>
-            </Jumbotron>
+            </Jumbotron> */}
             <div style={{ padding: 20 }}>
                 <h2>Experience</h2>
                 {experiences.map(e => <Experience
