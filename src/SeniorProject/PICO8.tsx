@@ -1,4 +1,5 @@
 import React from 'react';
+import './PICO8.css';
 
 export const PICO8 = () => {
     return (
