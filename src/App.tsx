@@ -1,6 +1,6 @@
 import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
-import { BrowserRouter, Redirect, Route } from 'react-router-dom';
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { Resume } from './Resume/Resume';
 import { SeniorProject } from './SeniorProject/SeniorProject';
 
@@ -14,11 +14,11 @@ function App() {
           <Nav.Link href='/senior-project'>Senior Project</Nav.Link>
         </Nav>
       </Navbar>
-      <Route path='/resume' component={Resume} />
-      <Route path='/senior-project' component={SeniorProject} />
-      <Route exact path='/'>
-        <Redirect to='/resume' />
-      </Route>
+      <Routes>
+        <Route path='/resume' element={<Resume />} />
+        <Route path='/senior-project' element={<SeniorProject />} />
+        <Route path='/' element={<Navigate to='/resume' replace />} />
+      </Routes>
     </BrowserRouter>
   );
 }
