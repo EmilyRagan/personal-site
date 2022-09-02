@@ -42,5 +42,6 @@
   "devDependencies": {
     "@types/react-bootstrap": "^0.32.24",
     "@types/react-router-dom": "^5.1.5"
-  }
+  },
+  "packageManager": "yarn@3.2.3"
 }
