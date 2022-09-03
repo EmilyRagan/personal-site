@@ -1,9 +1,10 @@
-import React from 'react';
-import Link from 'next/link';
-import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import type { AppProps } from 'next/app';
+import Link from 'next/link';
+import React from 'react';
+import './index.css';
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
     return (
         <div style={{ alignItems: 'stretch', display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
             <div style={{ alignItems: 'center', backgroundColor: 'gray', display: 'flex', padding: 20 }}>
