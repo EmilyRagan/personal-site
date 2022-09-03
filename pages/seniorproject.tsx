@@ -2,9 +2,7 @@ import React from 'react';
 
 const SeniorProject = () =>
 {
-    return <div>
-        <p>test senior project component</p>
-    </div>;
+    return <iframe src='/home.html' style={{ border: 0, flexGrow: 1 }} />;
 }
 
 export default SeniorProject;
