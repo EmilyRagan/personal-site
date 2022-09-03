@@ -13,10 +13,9 @@
   "scripts": {
     "start": "next start",
     "build": "next build",
-    "dev": "next dev"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "dev": "next dev",
+    "export": "next export",
+    "lint": "next lint"
   },
   "browserslist": {
     "production": [
@@ -36,7 +35,8 @@
     "@types/react-bootstrap": "^0.32.24",
     "@types/react-dom": "latest",
     "@types/react-router-dom": "^5.1.5",
-    "eslint": "^8.23.0"
+    "eslint": "^8.23.0",
+    "eslint-config-next": "12.2.5"
   },
   "packageManager": "yarn@3.2.3"
 }
